@@ -6,7 +6,7 @@
     "type": "object",
     "properties": {
 	"pdb": {
-	    "type": "string",
+	    "$ref": "resource://mdgroup/common_resources/path_file/v1",
 	    "description": "Sructure in RCSB PDB format"
 	},
 	"reference": {
@@ -95,10 +95,6 @@
 	    "type": "boolean",
 	    "description": "Protonate all atoms (will not influence pKa calculation)",
 	    "default": false
-	},
-	"from_file": {
-	    "type": "boolean",
-	    "default": "false"
 	},
 	"workdir": {
 	    "type": "string",

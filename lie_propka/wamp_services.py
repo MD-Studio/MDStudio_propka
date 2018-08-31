@@ -49,7 +49,7 @@ class RunPropka(object):
         # Run propkatraj
         pkatrajdf = get_propka(universe, sel=sel, start=start, stop=stop, step=step)
 
-        return {'session': session}
+        return {'session': session, 'output': pkatrajdf}
 
     def run_propka(self, propka_config):
         """
@@ -72,12 +72,12 @@ class RunPropka(object):
         logging.info('PropKa working directory: {0}'.format(workdir))
 
         pdb = propka_config['pdb']
-        if propka_config['from_file']:
+        if pdb['content'] is not None:
             pdbfile = os.path.join(workdir, 'propka.pdb')
             with open(pdbfile) as infile:
-                infile.write(pdb)
+                infile.write(pdb['content'])
         else:
-            pdbfile = pdb
+            pdbfile = pdb['path']
 
         # Wrap options dictionary as object (needed for PROPKA)
         propka_config = Struct(propka_config)
