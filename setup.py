@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# package: lie_propka
+# package: mdstudio_propka
 # file: setup.py
 #
-# Part of ‘lie_propka’, a package providing an interface to the PROPKA
+# Part of ‘mdstudio_propka’, a package providing an interface to the PROPKA
 # software suite for prediction of the pKa values of ionizable groups in
 # proteins and protein-ligand complexes based in the 3D structure.
 # http://propka.org
@@ -24,7 +24,7 @@
 
 from setuptools import setup, find_packages
 
-distribution_name = 'lie_propka'
+distribution_name = 'mdstudio_propka'
 
 setup(
     name=distribution_name,
@@ -37,12 +37,12 @@ setup(
     author_email=['m4.van.dijk@vu.nl', 'f.zapata@esciencecenter.nl'],
     url='https://github.com/MD-Studio/MDStudio',
     license='Apache Software License 2.0',
-    keywords='LIEStudio PropKa pKa',
+    keywords='MDStudio PropKa pKa',
     platforms=['Any'],
-    packages=find_packages(),
+    package_data={'mdstudio_propka': ['schemas/endpoints/*']},
     py_modules=[distribution_name],
     include_package_data=True,
-    install_requires=['pandas', 'propkatraj'],
+    install_requires=['mdanalysis', 'pandas', 'propka', 'propkatraj'],
     zip_safe=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -51,8 +51,5 @@ setup(
         'Topic :: Utilities',
         'Operating System :: OS Independent',
         'Intended Audience :: Science/Research',
-    ],
-    extras_require={
-        'test': ['coverage']
-    }
+    ]
 )
