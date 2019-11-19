@@ -1,6 +1,6 @@
 # MDStudio PROPKA
 
-[![Build Status](https://travis-ci.org/MD-Studio/MDStudio_propka.svg?branch=master)](https://travis-ci.org/MD-Studio/MDStudio_propka)
+[![Build Status](https://travis-ci.com/MD-Studio/MDStudio_propka.svg?branch=master)](https://travis-ci.com/MD-Studio/MDStudio_propka)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d66db06e8cb041f4b1cd90ace5d6ce69)](https://www.codacy.com/manual/marcvdijk/MDStudio_propka?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MD-Studio/MDStudio_propka&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/MD-Studio/MDStudio_propk/branch/master/graph/badge.svg)](https://codecov.io/gh/MD-Studio/MDStudio_propka)
 
