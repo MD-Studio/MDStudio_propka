@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-LIEStudio propka component
+MDStudio propka component
 
 PROPKA predicts the pKa values of ionizable groups in proteins and
 protein-ligand complexes based in the 3D structure.
@@ -14,9 +14,8 @@ When using this component in scientific work please cite:
 """
 
 import os
-from wamp_services import RunPropka
 
-__module__ = 'lie_propka'
+__module__ = 'mdstudio_propka'
 __docformat__ = 'restructuredtext'
 __version__ = '{major:d}.{minor:d}'.format(major=0, minor=2)
 __author__ = 'Marc van Dijk'
@@ -25,5 +24,4 @@ __date__ = '5 august 2016'
 __licence__ = 'Apache Software License 2.0'
 __url__ = 'https://github.com/MD-Studio/MDStudio'
 __copyright__ = "Copyright (c) VU University, Amsterdam"
-__rootpath__ = os.path.dirname(__file__)
-__all__ = ['RunPropka']
+__package_path__ = os.path.dirname(os.path.realpath(__file__))

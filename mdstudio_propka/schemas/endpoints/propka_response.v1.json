@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://mdstudio/schemas/endpoints/propka_response.v1.json",
+  "title": "propka output",
+  "description": "predicts the pKa values of ionizable groups in proteins",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "description": "Job final status",
+      "enum": [
+        "failed",
+        "completed"
+      ]
+    },
+    "output": {
+      "type": "object",
+      "description": "propka output",
+      "properties": {
+        "pka": {
+          "type": "object",
+          "description": "parsed propka output"
+        },
+        "pka_file": {
+          "type": "string",
+          "description": "path to PROPKA pka output file"
+        },
+        "propka_input_file": {
+          "type": "string",
+          "description": "path to pre-processed PROPKA input file"
+        },
+        "pi_folded": {
+          "type": "number",
+          "description": "pK values of the ionizable groups in the folded protein"
+        },
+        "pi_unfolded": {
+          "type": "number",
+          "description": "pK values of the ionizable groups in the unfolded protein"
+        }
+      }
+    }
+  },
+  "required": [
+    "status",
+    "output"
+  ]
+}
