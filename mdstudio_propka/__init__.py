@@ -22,6 +22,6 @@ __author__ = 'Marc van Dijk'
 __status__ = 'pre-release beta1'
 __date__ = '5 august 2016'
 __licence__ = 'Apache Software License 2.0'
-__url__ = 'https://github.com/MD-Studio/MDStudio'
+__url__ = 'https://github.com/MD-Studio/MDStudio_propka'
 __copyright__ = "Copyright (c) VU University, Amsterdam"
 __package_path__ = os.path.dirname(os.path.realpath(__file__))
