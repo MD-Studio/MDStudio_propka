@@ -2,7 +2,7 @@ sudo: false
 language: python
 
 os:
- - linux
+  - linux
 
 python:
   - "3.6"
