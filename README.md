@@ -1,7 +1,7 @@
-# MDStudio ATB
+# MDStudio PROPKA
 
 [![Build Status](https://travis-ci.org/MD-Studio/MDStudio_propka.svg?branch=master)](https://travis-ci.org/MD-Studio/MDStudio_propka)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/697c033fd7674ecea28c089150a25dfa)](https://www.codacy.com/app/marcvdijk/MDStudio_ATB?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MD-Studio/MDStudio_ATB&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d66db06e8cb041f4b1cd90ace5d6ce69)](https://www.codacy.com/manual/marcvdijk/MDStudio_propka?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MD-Studio/MDStudio_propka&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/MD-Studio/MDStudio_propk/branch/master/graph/badge.svg)](https://codecov.io/gh/MD-Studio/MDStudio_propka)
 
 The MDStudio propka service provides access to the [PROPKA](https://github.com/jensengroup/propka-3.1) software for the
