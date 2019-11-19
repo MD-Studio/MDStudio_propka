@@ -13,11 +13,15 @@ global:
 
 install:
   # install library
-  - pip install -e .[test]
+  - pip install codecov
+  - pip install -e .
 
 script:
-  - (cd tests && coverage run -m unittest discover -vvv)
+  - coverage run tests
 
 branches:
   only:
     - master
+
+after_success:
+  - codecov
