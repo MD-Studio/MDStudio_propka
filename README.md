@@ -17,8 +17,8 @@ MDStudio propka can be installed quickly from a pre-compiled docker image hosted
     docker pull mdstudio/mdstudio_propka
     docker run (-d) mdstudio/mdstudio_propka
 
-In this mode you will first need to launch the MDStudio environment itself in order for the MDStudio ATB service to 
-connect to it. You can unify this behaviour by adding the MDStudio ATB service to the MDStudio service environment as:
+In this mode you will first need to launch the MDStudio environment itself in order for the MDStudio propka service to 
+connect to it. You can unify this behaviour by adding the MDStudio propka service to the MDStudio service environment as:
 
     MDStudio/docker-compose.yml:
         
