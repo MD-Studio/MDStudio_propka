@@ -6,7 +6,7 @@
   "type": "object",
   "properties": {
     "pdb": {
-      "$ref": "resource://mdgroup/mdstudio_structures/path_file/v1",
+      "$ref": "resource://mdgroup/common_resources/path_file/v1",
       "description": "Structure in RCSB PDB format"
     },
     "reference": {
@@ -31,7 +31,7 @@
       "description": "defining a thermophile filename; usually used in 'alignment-mutations'"
     },
     "alignment": {
-      "$ref": "resource://mdgroup/mdstudio_structures/path_file/v1",
+      "$ref": "resource://mdgroup/common_resources/path_file/v1",
       "description": "alignment file connecting <filename> and <thermophile> [<thermophile>.pir]"
     },
     "mutation": {
