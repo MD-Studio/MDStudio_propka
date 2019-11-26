@@ -4,6 +4,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d66db06e8cb041f4b1cd90ace5d6ce69)](https://www.codacy.com/manual/marcvdijk/MDStudio_propka?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MD-Studio/MDStudio_propka&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/MD-Studio/MDStudio_propka/branch/master/graph/badge.svg)](https://codecov.io/gh/MD-Studio/MDStudio_propka)
 
+![Configuration settings](mdstudio-logo.png)
+
 The MDStudio propka service provides access to the [PROPKA](https://github.com/jensengroup/propka-3.1) software for the
 prediction of pKa values of ionizable groups in proteins and protein-ligand complexes based in the 3D structure.
 The PROPKA package was developed by the Jensen group at the University of Copenhagen (see reference information below).
