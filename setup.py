@@ -28,7 +28,7 @@ distribution_name = 'mdstudio_propka'
 
 setup(
     name=distribution_name,
-    version=0.2,
+    version=1.0,
     description='MDStudio component providing an interface to the PropKa software suite',
     author="""
     Marc van Dijk - VU University - Amsterdam
