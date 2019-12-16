@@ -22,7 +22,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 distribution_name = 'mdstudio_propka'
 
@@ -39,7 +39,8 @@ setup(
     license='Apache Software License 2.0',
     keywords='MDStudio PropKa pKa',
     platforms=['Any'],
-    package_data={'mdstudio_propka': ['schemas/endpoints/*']},
+    packages=find_packages(),
+    package_data={distribution_name: ['schemas/*', 'schemas/endpoints/*']},
     py_modules=[distribution_name],
     include_package_data=True,
     install_requires=['mdanalysis', 'pandas', 'propka', 'propkatraj'],
